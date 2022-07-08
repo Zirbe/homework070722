@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework 070722</title>
+    <style>
+      .h1 {
+        color: #201514;
+        padding: 10px;
+        border: 2px solid darkblue;
+        border-radius: 50px; 
+        display: inline-block;
+        transform: translate(190%);
+        background-color: lightsteelblue;
+      }
+      
+      .h2 {
+        color: #201514;
+        padding: 10px;
+        border: 2px solid darkblue;
+        border-radius: 50px; 
+        display: inline-block;
+        background-color: lightsteelblue;
+      }
+
+      .img {
+        height: 360px;
+        width: 480px;
+        border: 2px solid;
+        border-radius: 15px;
+        margin: 8px;
+        align-content: center;
+      }
+      
+    body {
+      background-image:url("img/lombok.jpg");
+      background-size: cover;
+    }
+
+    .p {
+      background-color: lightsteelblue;
+      display: inline;
+      font-size: large;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .list {
+      background-color: lightsteelblue;
+      display: inline-block;
+      font-size: large;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .video {
+      width: 640px;
+      height: 480px;
+      transform: translate(20%);
+      padding: 40px;
+     
+    }
+      .table {
+        transform: translate(60%);
+      }
+
+      .th {
+        border: 2px solid black;
+        border-radius: 5px;
+        padding: 2px;
+        background-color: orange;
+      }
+
+      .td {
+        border: 2px solid blue;
+        border-radius: 5px;
+        text-align: center;
+        font-family: impact;
+        font-size: 13x;
+        color: darkred;
+        background-color: aqua;
+      }
+      
+      #weather {
+        font-size: x-large;
+        padding: 5px;
+        border: 2px solid darkblue;
+        border-radius: 50px;
+        margin: 20px; 
+        display: inline-block;
+        background-color: lightsteelblue;
+      
+      }
+
+
+    </style>
+  </head>
+  <body>
+    <h1 class="h1">Welcome to Lombok!</h1>
+
+    <div class="about">
+      <h2 class="h2">About Lombok:</h2>
+      <p class="p"><strong><br>Lombok, is Bali’s backyard, just calmer and less developed version.
+      <br>Lombok is truly destination of rich culture. 
+      <br><u>Trip to Lombok here are seven reasons why:</u></strong></p></div>
+
+        <div>
+      <ol class="list">
+        <li>Visit Gilis island</li>
+        <li>Trekking in Mount Rinjani</li>
+        <li>Visit Tiu Kelep waterfall</li>
+        <li>Drive to Senggigi</li>
+        <li>Explore some watersports</li>
+        <li>Sample the Lombok food</li>
+        <li>Experience the culture</li>
+      </ol>
+    </div>
+    <video class="video" autoplay controls>
+      <source src="video/lombok.mp4" type="video/mp4">
+    </video>
+
+    <figcaption id="weather">weather data</figcaption>
+    <table class="table">
+      <tbody>
+        <tr>
+          <th class="th">months</th>
+          <th class="th">jan</th>
+          <th class="th">feb</th>
+          <th class="th">mar</th>
+          <th class="th">apr</th>
+          <th class="th">may</th>
+          <th class="th">jun</th>
+          <th class="th">jul</th>
+          <th class="th">aug</th>
+          <th class="th">sep</th>
+          <th class="th">oct</th>
+          <th class="th">nov</th>
+          <th class="th">dec</th>
+        </tr>
+        <tr>
+          <td class="td">min temp</td>
+          <td class="td">24.1 °C</td>
+          <td class="td">23.8 °C</td>
+          <td class="td">23.6 °C</td>
+          <td class="td">23.5 °C</td>
+          <td class="td">22.6 °C</td>
+          <td class="td">21.7 °C</td>
+          <td class="td">20.9 °C</td>
+          <td class="td">20.8 °C</td>
+          <td class="td">22.0 °C</td>
+          <td class="td">23.3 °C</td>
+          <td class="td">24.0 °C</td>
+          <td class="td">24.0 °C</td>
+        </tr>
+        <tr>
+          <td class="td">max temp</td>
+          <td class="td">31.2 °C</td>
+          <td class="td">31.4 °C</td>
+          <td class="td">31.8 °C</td>
+          <td class="td">32.1 °C</td>
+          <td class="td">31.8 °C</td>
+          <td class="td">31.0 °C</td>
+          <td class="td">30.4 °C</td>
+          <td class="td">30.7 °C</td>
+          <td class="td">31.3 °C</td>
+          <td class="td">32.3 °C</td>
+          <td class="td">32.3 °C</td>
+          <td class="td">31.5 °C</td>
+        </tr>
+        <tr>
+          <td class="td">avg temp</td>
+          <td class="td">27.7 °C</td>
+          <td class="td">27.6 °C</td>
+          <td class="td">27.7 °C</td>
+          <td class="td">27.8 °C</td>
+          <td class="td">27.2 °C</td>
+          <td class="td">26.4 °C</td>
+          <td class="td">25.6 °C</td>
+          <td class="td">25.7 °C</td>
+          <td class="td">26.7 °C</td>
+          <td class="td">27.8 °C</td>
+          <td class="td">28.1 °C</td>
+          <td class="td">27.8 °C</td>
+        </tr>
+        <tr>
+          <td class="td">sea temp</td>
+          <td class="td">29.0 °C</td>
+          <td class="td">29.0 °C</td>
+          <td class="td">29.0 °C</td>
+          <td class="td">29.5 °C</td>
+          <td class="td">29.0 °C</td>
+          <td class="td">29.0 °C</td>
+          <td class="td">28.0 °C</td>
+          <td class="td">27.0 °C</td>
+          <td class="td">27.0 °C</td>
+          <td class="td">28.0 °C</td>
+          <td class="td">29.0 °C</td>
+          <td class="td">29.5 °C</td>
+        </tr>
+        <tr>
+          <td class="td">rain</td>
+          <td class="td">280 mm</td>
+          <td class="td">225 mm</td>
+          <td class="td">160 mm</td>
+          <td class="td">110 mm</td>
+          <td class="td">95 mm</td>
+          <td class="td">45 mm</td>
+          <td class="td">30 mm</td>
+          <td class="td">20 mm</td>
+          <td class="td">35 mm</td>
+          <td class="td">110 mm</td>
+          <td class="td">165 mm</td>
+          <td class="td">245 mm</td>
+        </tr>
+      </tbody>
+    </table>
+    
+
+    <h2 class="h2">Gallery</h2>
+    <div>
+    <img class="img" src="/070722/img/aaron-thomas-4CHdH9cMr0E-unsplash.jpg" alt="mountains">
+    <img class="img" src="/070722/img/aaron-thomas-vCRPfURV6jI-unsplash.jpg" alt="local_guy">
+    <img class="img" src="/070722/img/aayush-gupta-kZWo5KsgPYk-unsplash.jpg" alt="sunset">
+    <img class="img" src="/070722/img/adrian-jakob-tAkvMbyGHN8-unsplash.jpg" alt="fish">
+    <img class="img" src="/070722/img/artem-beliaikin-K5AW1OzC3xk-unsplash.jpg" alt="jungle">
+    <img class="img" src="/070722/img/benjamin-janos-ym99Ig7ILRA-unsplash.jpg" alt="waterfall">
+    <img class="img" src="/070722/img/bernard-hermant-TzwEcpB_2do-unsplash.jpg" alt="house">
+    <img class="img" src="/070722/img/gabrielle-cepella-TRPTadHnCQs-unsplash.jpg" alt="turtle">
+    <img class="img" src="/070722/img/ivan-tejero-LSMFD7yoVC8-unsplash.jpg" alt="komodo_dragon">
+    <img class="img" src="/070722/img/jeremy-bishop-GntGR-SHkXE-unsplash.jpg" alt="beach">
+    <img class="img" src="/070722/img/koes-nadi-ND1pHO839YA-unsplash.jpg" alt="feast">
+    <img class="img" src="/070722/img/muhammad-fadhli-rET1AHiFrMk-unsplash.jpg" alt="monkey">
+  </div>
+  </body>
+</html>
